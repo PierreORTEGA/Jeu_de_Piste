@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1014D431C5FA483003726DF /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1014D421C5FA482003726DF /* VCMapView.swift */; };
+		E11C10021C629134000AB26B /* CommentaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C10011C629133000AB26B /* CommentaireView.swift */; };
+		E13D18F21C5A4ACD009942C7 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E13D18F11C5A4ACD009942C7 /* libc++abi.tbd */; };
+		E13D197B1C5A68B6009942C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D197A1C5A68B6009942C7 /* MapViewController.swift */; };
+		E13D197D1C5A70BE009942C7 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D197C1C5A70BE009942C7 /* Artwork.swift */; };
+		E14B4BE51C58FB6C00C8F674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B4BE41C58FB6C00C8F674 /* AppDelegate.swift */; };
+		E14B4BE71C58FB6C00C8F674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B4BE61C58FB6C00C8F674 /* ViewController.swift */; };
+		E14B4BEC1C58FB6D00C8F674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14B4BEB1C58FB6D00C8F674 /* Assets.xcassets */; };
+		E14B4BEF1C58FB6D00C8F674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14B4BED1C58FB6D00C8F674 /* LaunchScreen.storyboard */; };
+		E14B4BFA1C58FB6D00C8F674 /* Jeu_de_PisteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B4BF91C58FB6D00C8F674 /* Jeu_de_PisteTests.swift */; };
+		E14B4C051C58FB6D00C8F674 /* Jeu_de_PisteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B4C041C58FB6D00C8F674 /* Jeu_de_PisteUITests.swift */; };
+		E14B4C3C1C59032A00C8F674 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C3B1C59032A00C8F674 /* libstdc++.6.tbd */; };
+		E14B4C3E1C59034400C8F674 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C3D1C59034400C8F674 /* libsqlite3.tbd */; };
+		E14B4C401C59036A00C8F674 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C3F1C59036A00C8F674 /* SystemConfiguration.framework */; };
+		E14B4C421C59037900C8F674 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C411C59037900C8F674 /* AudioToolbox.framework */; };
+		E14B4C4B1C590F5200C8F674 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C491C590F5200C8F674 /* Bolts.framework */; };
+		E14B4C4C1C590F5200C8F674 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14B4C4A1C590F5200C8F674 /* Parse.framework */; };
+		E162D15A1C68D6F100940644 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E162D1591C68D6F100940644 /* NoteViewController.swift */; };
+		E17BFF541C64F1B400E3E699 /* 5_emptyStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E17BFF531C64F1B400E3E699 /* 5_emptyStar_2x.png */; };
+		E17BFF561C64F1C700E3E699 /* 5_filledStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E17BFF551C64F1C700E3E699 /* 5_filledStar_2x.png */; };
+		E18B8DB51C69EB060099BBB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18B8DB41C69EB060099BBB3 /* Main.storyboard */; };
+		E18B8DB71C6A0C250099BBB3 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18B8DB61C6A0C250099BBB3 /* InscriptionViewController.swift */; };
+		E18B8DD11C6A3E770099BBB3 /* AuthentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18B8DD01C6A3E770099BBB3 /* AuthentificationViewController.swift */; };
+		E18CC0571C63A3D4001E05FD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18CC0561C63A3D4001E05FD /* RatingControl.swift */; };
+		E1A842241C68C299004E7299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A842221C68C299004E7299 /* LaunchScreen.storyboard */; };
+		E1A8423E1C68C508004E7299 /* RatingGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8423D1C68C508004E7299 /* RatingGeneral.swift */; };
+		E1B2AEC51C774F3900724EF9 /* Sans titre-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B2AEC41C774F3800724EF9 /* Sans titre-1.png */; };
+		E1C150A81C7B68F2004CCBA5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C150A71C7B68F2004CCBA5 /* AppIcon.png */; };
+		E1D5F8341C7244300081EA75 /* AvisCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5F8331C7244300081EA75 /* AvisCustomCell.swift */; };
+		E1F2A8CC1C74C54C005FCE96 /* aqua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8B91C74C54C005FCE96 /* aqua.jpg */; };
+		E1F2A8CD1C74C54C005FCE96 /* bio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BA1C74C54C005FCE96 /* bio.jpg */; };
+		E1F2A8CE1C74C54C005FCE96 /* bur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BB1C74C54C005FCE96 /* bur.jpg */; };
+		E1F2A8CF1C74C54C005FCE96 /* camp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BC1C74C54C005FCE96 /* camp.jpg */; };
+		E1F2A8D01C74C54C005FCE96 /* cantina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BD1C74C54C005FCE96 /* cantina.jpg */; };
+		E1F2A8D11C74C54C005FCE96 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BE1C74C54C005FCE96 /* cat.jpg */; };
+		E1F2A8D21C74C54C005FCE96 /* cine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8BF1C74C54C005FCE96 /* cine.jpg */; };
+		E1F2A8D31C74C54C005FCE96 /* cure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C01C74C54C005FCE96 /* cure.jpg */; };
+		E1F2A8D41C74C54C005FCE96 /* danse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C11C74C54C005FCE96 /* danse.jpg */; };
+		E1F2A8D51C74C54C005FCE96 /* darou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C21C74C54C005FCE96 /* darou.jpg */; };
+		E1F2A8D61C74C54C005FCE96 /* georg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C31C74C54C005FCE96 /* georg.jpg */; };
+		E1F2A8D71C74C54C005FCE96 /* jcd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C41C74C54C005FCE96 /* jcd.jpg */; };
+		E1F2A8D81C74C54C005FCE96 /* kjc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C51C74C54C005FCE96 /* kjc.jpg */; };
+		E1F2A8D91C74C54C005FCE96 /* palai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C61C74C54C005FCE96 /* palai.jpg */; };
+		E1F2A8DA1C74C54C005FCE96 /* refo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C71C74C54C005FCE96 /* refo.jpg */; };
+		E1F2A8DB1C74C54C005FCE96 /* sbe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C81C74C54C005FCE96 /* sbe.jpg */; };
+		E1F2A8DC1C74C54C005FCE96 /* srd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8C91C74C54C005FCE96 /* srd.jpg */; };
+		E1F2A8DD1C74C54C005FCE96 /* stmartin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8CA1C74C54C005FCE96 /* stmartin.jpg */; };
+		E1F2A8DE1C74C54C005FCE96 /* tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A8CB1C74C54C005FCE96 /* tacos.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E14B4BF61C58FB6D00C8F674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14B4BD91C58FB6A00C8F674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14B4BE01C58FB6B00C8F674;
+			remoteInfo = "Jeu de Piste";
+		};
+		E14B4C011C58FB6D00C8F674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14B4BD91C58FB6A00C8F674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14B4BE01C58FB6B00C8F674;
+			remoteInfo = "Jeu de Piste";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1014D421C5FA482003726DF /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		E11C10011C629133000AB26B /* CommentaireView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentaireView.swift; sourceTree = "<group>"; };
+		E13D18F11C5A4ACD009942C7 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		E13D197A1C5A68B6009942C7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E13D197C1C5A70BE009942C7 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		E14B4BE11C58FB6B00C8F674 /* Jeu de Piste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jeu de Piste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14B4BE41C58FB6C00C8F674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E14B4BE61C58FB6C00C8F674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E14B4BEB1C58FB6D00C8F674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14B4BEE1C58FB6D00C8F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E14B4BF01C58FB6D00C8F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14B4BF51C58FB6D00C8F674 /* Jeu de PisteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jeu de PisteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14B4BF91C58FB6D00C8F674 /* Jeu_de_PisteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu_de_PisteTests.swift; sourceTree = "<group>"; };
+		E14B4BFB1C58FB6D00C8F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14B4C001C58FB6D00C8F674 /* Jeu de PisteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jeu de PisteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14B4C041C58FB6D00C8F674 /* Jeu_de_PisteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu_de_PisteUITests.swift; sourceTree = "<group>"; };
+		E14B4C061C58FB6D00C8F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14B4C3B1C59032A00C8F674 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		E14B4C3D1C59034400C8F674 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E14B4C3F1C59036A00C8F674 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E14B4C411C59037900C8F674 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E14B4C491C590F5200C8F674 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		E14B4C4A1C590F5200C8F674 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E162D1591C68D6F100940644 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		E17BFF531C64F1B400E3E699 /* 5_emptyStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_emptyStar_2x.png; sourceTree = SOURCE_ROOT; };
+		E17BFF551C64F1C700E3E699 /* 5_filledStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_filledStar_2x.png; sourceTree = SOURCE_ROOT; };
+		E18B8DB41C69EB060099BBB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E18B8DB61C6A0C250099BBB3 /* InscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		E18B8DD01C6A3E770099BBB3 /* AuthentificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthentificationViewController.swift; sourceTree = "<group>"; };
+		E18CC0561C63A3D4001E05FD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		E1A842231C68C299004E7299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A8423D1C68C508004E7299 /* RatingGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingGeneral.swift; sourceTree = "<group>"; };
+		E1B2AEC41C774F3800724EF9 /* Sans titre-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sans titre-1.png"; sourceTree = SOURCE_ROOT; };
+		E1C150A71C7B68F2004CCBA5 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		E1D5F8331C7244300081EA75 /* AvisCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisCustomCell.swift; sourceTree = "<group>"; };
+		E1F2A8B91C74C54C005FCE96 /* aqua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aqua.jpg; sourceTree = "<group>"; };
+		E1F2A8BA1C74C54C005FCE96 /* bio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bio.jpg; sourceTree = "<group>"; };
+		E1F2A8BB1C74C54C005FCE96 /* bur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bur.jpg; sourceTree = "<group>"; };
+		E1F2A8BC1C74C54C005FCE96 /* camp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camp.jpg; sourceTree = "<group>"; };
+		E1F2A8BD1C74C54C005FCE96 /* cantina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cantina.jpg; sourceTree = "<group>"; };
+		E1F2A8BE1C74C54C005FCE96 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		E1F2A8BF1C74C54C005FCE96 /* cine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cine.jpg; sourceTree = "<group>"; };
+		E1F2A8C01C74C54C005FCE96 /* cure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cure.jpg; sourceTree = "<group>"; };
+		E1F2A8C11C74C54C005FCE96 /* danse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danse.jpg; sourceTree = "<group>"; };
+		E1F2A8C21C74C54C005FCE96 /* darou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darou.jpg; sourceTree = "<group>"; };
+		E1F2A8C31C74C54C005FCE96 /* georg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georg.jpg; sourceTree = "<group>"; };
+		E1F2A8C41C74C54C005FCE96 /* jcd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jcd.jpg; sourceTree = "<group>"; };
+		E1F2A8C51C74C54C005FCE96 /* kjc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kjc.jpg; sourceTree = "<group>"; };
+		E1F2A8C61C74C54C005FCE96 /* palai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palai.jpg; sourceTree = "<group>"; };
+		E1F2A8C71C74C54C005FCE96 /* refo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refo.jpg; sourceTree = "<group>"; };
+		E1F2A8C81C74C54C005FCE96 /* sbe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sbe.jpg; sourceTree = "<group>"; };
+		E1F2A8C91C74C54C005FCE96 /* srd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = srd.jpg; sourceTree = "<group>"; };
+		E1F2A8CA1C74C54C005FCE96 /* stmartin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmartin.jpg; sourceTree = "<group>"; };
+		E1F2A8CB1C74C54C005FCE96 /* tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacos.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14B4BDE1C58FB6B00C8F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13D18F21C5A4ACD009942C7 /* libc++abi.tbd in Frameworks */,
+				E14B4C4B1C590F5200C8F674 /* Bolts.framework in Frameworks */,
+				E14B4C421C59037900C8F674 /* AudioToolbox.framework in Frameworks */,
+				E14B4C401C59036A00C8F674 /* SystemConfiguration.framework in Frameworks */,
+				E14B4C3E1C59034400C8F674 /* libsqlite3.tbd in Frameworks */,
+				E14B4C4C1C590F5200C8F674 /* Parse.framework in Frameworks */,
+				E14B4C3C1C59032A00C8F674 /* libstdc++.6.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BF21C58FB6D00C8F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BFD1C58FB6D00C8F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E13D197E1C5A70CC009942C7 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				E13D197A1C5A68B6009942C7 /* MapViewController.swift */,
+				E13D197C1C5A70BE009942C7 /* Artwork.swift */,
+				E1014D421C5FA482003726DF /* VCMapView.swift */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		E14B4BD81C58FB6A00C8F674 = {
+			isa = PBXGroup;
+			children = (
+				E1F2A8B81C74C54C005FCE96 /* Image App */,
+				E14B4C451C590E6000C8F674 /* Frameworks */,
+				E14B4BE31C58FB6B00C8F674 /* Jeu de Piste */,
+				E14B4BF81C58FB6D00C8F674 /* Jeu de PisteTests */,
+				E14B4C031C58FB6D00C8F674 /* Jeu de PisteUITests */,
+				E14B4BE21C58FB6B00C8F674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14B4BE21C58FB6B00C8F674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14B4BE11C58FB6B00C8F674 /* Jeu de Piste.app */,
+				E14B4BF51C58FB6D00C8F674 /* Jeu de PisteTests.xctest */,
+				E14B4C001C58FB6D00C8F674 /* Jeu de PisteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14B4BE31C58FB6B00C8F674 /* Jeu de Piste */ = {
+			isa = PBXGroup;
+			children = (
+				E1C150A71C7B68F2004CCBA5 /* AppIcon.png */,
+				E1B2AEC41C774F3800724EF9 /* Sans titre-1.png */,
+				E18B8DB41C69EB060099BBB3 /* Main.storyboard */,
+				E1A842211C68C299004E7299 /* Base.lproj */,
+				E17BFF571C64F1D200E3E699 /* imgStar */,
+				E14B4BE41C58FB6C00C8F674 /* AppDelegate.swift */,
+				E14B4BE61C58FB6C00C8F674 /* ViewController.swift */,
+				E14B4BEB1C58FB6D00C8F674 /* Assets.xcassets */,
+				E14B4BED1C58FB6D00C8F674 /* LaunchScreen.storyboard */,
+				E14B4BF01C58FB6D00C8F674 /* Info.plist */,
+				E13D197E1C5A70CC009942C7 /* MapView */,
+				E17BFF581C64F82000E3E699 /* AvisView */,
+				E18B8DB61C6A0C250099BBB3 /* InscriptionViewController.swift */,
+				E18B8DD01C6A3E770099BBB3 /* AuthentificationViewController.swift */,
+			);
+			path = "Jeu de Piste";
+			sourceTree = "<group>";
+		};
+		E14B4BF81C58FB6D00C8F674 /* Jeu de PisteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E14B4BF91C58FB6D00C8F674 /* Jeu_de_PisteTests.swift */,
+				E14B4BFB1C58FB6D00C8F674 /* Info.plist */,
+			);
+			path = "Jeu de PisteTests";
+			sourceTree = "<group>";
+		};
+		E14B4C031C58FB6D00C8F674 /* Jeu de PisteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E14B4C041C58FB6D00C8F674 /* Jeu_de_PisteUITests.swift */,
+				E14B4C061C58FB6D00C8F674 /* Info.plist */,
+			);
+			path = "Jeu de PisteUITests";
+			sourceTree = "<group>";
+		};
+		E14B4C451C590E6000C8F674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14B4C491C590F5200C8F674 /* Bolts.framework */,
+				E14B4C4A1C590F5200C8F674 /* Parse.framework */,
+				E14B4C461C590E9100C8F674 /* System Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E14B4C461C590E9100C8F674 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13D18F11C5A4ACD009942C7 /* libc++abi.tbd */,
+				E14B4C411C59037900C8F674 /* AudioToolbox.framework */,
+				E14B4C3F1C59036A00C8F674 /* SystemConfiguration.framework */,
+				E14B4C3D1C59034400C8F674 /* libsqlite3.tbd */,
+				E14B4C3B1C59032A00C8F674 /* libstdc++.6.tbd */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+		E17BFF571C64F1D200E3E699 /* imgStar */ = {
+			isa = PBXGroup;
+			children = (
+				E17BFF531C64F1B400E3E699 /* 5_emptyStar_2x.png */,
+				E17BFF551C64F1C700E3E699 /* 5_filledStar_2x.png */,
+			);
+			name = imgStar;
+			sourceTree = "<group>";
+		};
+		E17BFF581C64F82000E3E699 /* AvisView */ = {
+			isa = PBXGroup;
+			children = (
+				E18CC0561C63A3D4001E05FD /* RatingControl.swift */,
+				E11C10011C629133000AB26B /* CommentaireView.swift */,
+				E1A8423D1C68C508004E7299 /* RatingGeneral.swift */,
+				E162D1591C68D6F100940644 /* NoteViewController.swift */,
+				E1D5F8331C7244300081EA75 /* AvisCustomCell.swift */,
+			);
+			name = AvisView;
+			sourceTree = "<group>";
+		};
+		E1A842211C68C299004E7299 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E1A842221C68C299004E7299 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		E1F2A8B81C74C54C005FCE96 /* Image App */ = {
+			isa = PBXGroup;
+			children = (
+				E1F2A8B91C74C54C005FCE96 /* aqua.jpg */,
+				E1F2A8BA1C74C54C005FCE96 /* bio.jpg */,
+				E1F2A8BB1C74C54C005FCE96 /* bur.jpg */,
+				E1F2A8BC1C74C54C005FCE96 /* camp.jpg */,
+				E1F2A8BD1C74C54C005FCE96 /* cantina.jpg */,
+				E1F2A8BE1C74C54C005FCE96 /* cat.jpg */,
+				E1F2A8BF1C74C54C005FCE96 /* cine.jpg */,
+				E1F2A8C01C74C54C005FCE96 /* cure.jpg */,
+				E1F2A8C11C74C54C005FCE96 /* danse.jpg */,
+				E1F2A8C21C74C54C005FCE96 /* darou.jpg */,
+				E1F2A8C31C74C54C005FCE96 /* georg.jpg */,
+				E1F2A8C41C74C54C005FCE96 /* jcd.jpg */,
+				E1F2A8C51C74C54C005FCE96 /* kjc.jpg */,
+				E1F2A8C61C74C54C005FCE96 /* palai.jpg */,
+				E1F2A8C71C74C54C005FCE96 /* refo.jpg */,
+				E1F2A8C81C74C54C005FCE96 /* sbe.jpg */,
+				E1F2A8C91C74C54C005FCE96 /* srd.jpg */,
+				E1F2A8CA1C74C54C005FCE96 /* stmartin.jpg */,
+				E1F2A8CB1C74C54C005FCE96 /* tacos.jpg */,
+			);
+			path = "Image App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14B4BE01C58FB6B00C8F674 /* Jeu de Piste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14B4C091C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de Piste" */;
+			buildPhases = (
+				E14B4BDD1C58FB6B00C8F674 /* Sources */,
+				E14B4BDE1C58FB6B00C8F674 /* Frameworks */,
+				E14B4BDF1C58FB6B00C8F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jeu de Piste";
+			productName = "Jeu de Piste";
+			productReference = E14B4BE11C58FB6B00C8F674 /* Jeu de Piste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E14B4BF41C58FB6D00C8F674 /* Jeu de PisteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14B4C0C1C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de PisteTests" */;
+			buildPhases = (
+				E14B4BF11C58FB6D00C8F674 /* Sources */,
+				E14B4BF21C58FB6D00C8F674 /* Frameworks */,
+				E14B4BF31C58FB6D00C8F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14B4BF71C58FB6D00C8F674 /* PBXTargetDependency */,
+			);
+			name = "Jeu de PisteTests";
+			productName = "Jeu de PisteTests";
+			productReference = E14B4BF51C58FB6D00C8F674 /* Jeu de PisteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E14B4BFF1C58FB6D00C8F674 /* Jeu de PisteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14B4C0F1C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de PisteUITests" */;
+			buildPhases = (
+				E14B4BFC1C58FB6D00C8F674 /* Sources */,
+				E14B4BFD1C58FB6D00C8F674 /* Frameworks */,
+				E14B4BFE1C58FB6D00C8F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14B4C021C58FB6D00C8F674 /* PBXTargetDependency */,
+			);
+			name = "Jeu de PisteUITests";
+			productName = "Jeu de PisteUITests";
+			productReference = E14B4C001C58FB6D00C8F674 /* Jeu de PisteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14B4BD91C58FB6A00C8F674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "ORTEGA Pierre";
+				TargetAttributes = {
+					E14B4BE01C58FB6B00C8F674 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MFBFY2VL97;
+					};
+					E14B4BF41C58FB6D00C8F674 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E14B4BE01C58FB6B00C8F674;
+					};
+					E14B4BFF1C58FB6D00C8F674 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E14B4BE01C58FB6B00C8F674;
+					};
+				};
+			};
+			buildConfigurationList = E14B4BDC1C58FB6B00C8F674 /* Build configuration list for PBXProject "Jeu de Piste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14B4BD81C58FB6A00C8F674;
+			productRefGroup = E14B4BE21C58FB6B00C8F674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14B4BE01C58FB6B00C8F674 /* Jeu de Piste */,
+				E14B4BF41C58FB6D00C8F674 /* Jeu de PisteTests */,
+				E14B4BFF1C58FB6D00C8F674 /* Jeu de PisteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14B4BDF1C58FB6B00C8F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F2A8D61C74C54C005FCE96 /* georg.jpg in Resources */,
+				E1F2A8DE1C74C54C005FCE96 /* tacos.jpg in Resources */,
+				E1F2A8CD1C74C54C005FCE96 /* bio.jpg in Resources */,
+				E17BFF561C64F1C700E3E699 /* 5_filledStar_2x.png in Resources */,
+				E14B4BEF1C58FB6D00C8F674 /* LaunchScreen.storyboard in Resources */,
+				E1F2A8D51C74C54C005FCE96 /* darou.jpg in Resources */,
+				E1A842241C68C299004E7299 /* LaunchScreen.storyboard in Resources */,
+				E1F2A8CC1C74C54C005FCE96 /* aqua.jpg in Resources */,
+				E1F2A8D01C74C54C005FCE96 /* cantina.jpg in Resources */,
+				E1F2A8D11C74C54C005FCE96 /* cat.jpg in Resources */,
+				E18B8DB51C69EB060099BBB3 /* Main.storyboard in Resources */,
+				E1F2A8DA1C74C54C005FCE96 /* refo.jpg in Resources */,
+				E1B2AEC51C774F3900724EF9 /* Sans titre-1.png in Resources */,
+				E1F2A8D31C74C54C005FCE96 /* cure.jpg in Resources */,
+				E1F2A8D21C74C54C005FCE96 /* cine.jpg in Resources */,
+				E1F2A8D41C74C54C005FCE96 /* danse.jpg in Resources */,
+				E1F2A8CF1C74C54C005FCE96 /* camp.jpg in Resources */,
+				E1F2A8CE1C74C54C005FCE96 /* bur.jpg in Resources */,
+				E1F2A8D71C74C54C005FCE96 /* jcd.jpg in Resources */,
+				E1C150A81C7B68F2004CCBA5 /* AppIcon.png in Resources */,
+				E14B4BEC1C58FB6D00C8F674 /* Assets.xcassets in Resources */,
+				E1F2A8DC1C74C54C005FCE96 /* srd.jpg in Resources */,
+				E1F2A8DB1C74C54C005FCE96 /* sbe.jpg in Resources */,
+				E17BFF541C64F1B400E3E699 /* 5_emptyStar_2x.png in Resources */,
+				E1F2A8DD1C74C54C005FCE96 /* stmartin.jpg in Resources */,
+				E1F2A8D81C74C54C005FCE96 /* kjc.jpg in Resources */,
+				E1F2A8D91C74C54C005FCE96 /* palai.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BF31C58FB6D00C8F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BFE1C58FB6D00C8F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14B4BDD1C58FB6B00C8F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18CC0571C63A3D4001E05FD /* RatingControl.swift in Sources */,
+				E1D5F8341C7244300081EA75 /* AvisCustomCell.swift in Sources */,
+				E18B8DB71C6A0C250099BBB3 /* InscriptionViewController.swift in Sources */,
+				E1A8423E1C68C508004E7299 /* RatingGeneral.swift in Sources */,
+				E14B4BE71C58FB6C00C8F674 /* ViewController.swift in Sources */,
+				E13D197B1C5A68B6009942C7 /* MapViewController.swift in Sources */,
+				E162D15A1C68D6F100940644 /* NoteViewController.swift in Sources */,
+				E18B8DD11C6A3E770099BBB3 /* AuthentificationViewController.swift in Sources */,
+				E1014D431C5FA483003726DF /* VCMapView.swift in Sources */,
+				E13D197D1C5A70BE009942C7 /* Artwork.swift in Sources */,
+				E14B4BE51C58FB6C00C8F674 /* AppDelegate.swift in Sources */,
+				E11C10021C629134000AB26B /* CommentaireView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BF11C58FB6D00C8F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14B4BFA1C58FB6D00C8F674 /* Jeu_de_PisteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14B4BFC1C58FB6D00C8F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14B4C051C58FB6D00C8F674 /* Jeu_de_PisteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14B4BF71C58FB6D00C8F674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14B4BE01C58FB6B00C8F674 /* Jeu de Piste */;
+			targetProxy = E14B4BF61C58FB6D00C8F674 /* PBXContainerItemProxy */;
+		};
+		E14B4C021C58FB6D00C8F674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14B4BE01C58FB6B00C8F674 /* Jeu de Piste */;
+			targetProxy = E14B4C011C58FB6D00C8F674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E14B4BED1C58FB6D00C8F674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14B4BEE1C58FB6D00C8F674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A842221C68C299004E7299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A842231C68C299004E7299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14B4C071C58FB6D00C8F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E14B4C081C58FB6D00C8F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14B4C0A1C58FB6D00C8F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Jeu de Piste/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-Piste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E14B4C0B1C58FB6D00C8F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Jeu de Piste/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-Piste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E14B4C0D1C58FB6D00C8F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jeu de PisteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-PisteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeu de Piste.app/Jeu de Piste";
+			};
+			name = Debug;
+		};
+		E14B4C0E1C58FB6D00C8F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jeu de PisteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-PisteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeu de Piste.app/Jeu de Piste";
+			};
+			name = Release;
+		};
+		E14B4C101C58FB6D00C8F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jeu de PisteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-PisteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jeu de Piste";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E14B4C111C58FB6D00C8F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jeu de PisteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.Jeu-de-PisteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jeu de Piste";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14B4BDC1C58FB6B00C8F674 /* Build configuration list for PBXProject "Jeu de Piste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14B4C071C58FB6D00C8F674 /* Debug */,
+				E14B4C081C58FB6D00C8F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14B4C091C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de Piste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14B4C0A1C58FB6D00C8F674 /* Debug */,
+				E14B4C0B1C58FB6D00C8F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14B4C0C1C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de PisteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14B4C0D1C58FB6D00C8F674 /* Debug */,
+				E14B4C0E1C58FB6D00C8F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14B4C0F1C58FB6D00C8F674 /* Build configuration list for PBXNativeTarget "Jeu de PisteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14B4C101C58FB6D00C8F674 /* Debug */,
+				E14B4C111C58FB6D00C8F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14B4BD91C58FB6A00C8F674 /* Project object */;
+}
